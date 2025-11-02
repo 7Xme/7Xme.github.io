@@ -2,9 +2,9 @@
   "version": "1.1",
   "products": [
     {
-      "id": 1,
-      "name": "Pen",
-      "name_ar": "قلم",
+      "id": 999,
+      "name": "555",
+      "name_ar": "54646",
       "name_fr": "Stylo",
       "price": 5.0,
       "barcode": "123456789",
@@ -56,3 +56,4 @@
   "status": "success",
   "timestamp": "2024-11-01T23:03:19.876Z"
 }
+
