@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stationery",
+      "name_ar": "قرطاسية",
+      "name_fr": "Papeterie",
+      "description": "Office supplies and writing materials",
+      "description_ar": "قرطاسية ومستلزمات مكتبية",
+      "description_fr": "Fournitures de bureau et articles d'écriture",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Electronics",
+      "name_ar": "إلكترونيات",
+      "name_fr": "Électronique",
+      "description": "Electronic devices and accessories",
+      "description_ar": "الأجهزة الإلكترونية والملحقات",
+      "description_fr": "Appareils électroniques et accessoires",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "name_ar": "كتب",
+      "name_fr": "Livres",
+      "description": "Books and educational materials",
+      "description_ar": "كتب ومواد تعليمية",
+      "description_fr": "Livres et matériel éducatif",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Home & Kitchen",
+      "name_ar": "منزل ومطبخ",
+      "name_fr": "Maison et cuisine",
+      "description": "Home appliances and kitchen items",
+      "description_ar": "أجهزة منزلية وأدوات مطبخ",
+      "description_fr": "Appareils ménagers et articles de cuisine",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Clothing",
+      "name_ar": "ملابس",
+      "name_fr": "Vêtements",
+      "description": "Apparel and fashion accessories",
+      "description_ar": "ملابس وإكسسوارات أزياء",
+      "description_fr": "Vêtements et accessoires de mode",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Health & Beauty",
+      "name_ar": "صحة وجمال",
+      "name_fr": "Santé et beauté",
+      "description": "Healthcare and beauty products",
+      "description_ar": "منتجات العناية الصحية والجمال",
+      "description_fr": "Produits de soins de santé et de beauté",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "status": "success",
+  "timestamp": "2025-11-02T02:24:40.343Z",
+  "total_categories": 6
+}
