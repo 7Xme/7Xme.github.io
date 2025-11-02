@@ -1,8 +1,8 @@
 {
-  "version": "1.5",
+  "version": "1.2",
   "products": [
     {
-      "id": 999,
+      "id": 6,
       "name": "555",
       "name_ar": "54646",
       "name_fr": "Stylo",
@@ -56,5 +56,6 @@
   "status": "success",
   "timestamp": "2024-11-01T23:03:19.876Z"
 }
+
 
 
