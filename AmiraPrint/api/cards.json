@@ -1,0 +1,226 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Employee ID Card Template",
+      "name_ar": "قالب بطاقة هوية الموظف",
+      "name_fr": "Modèle de carte d'identité employé",
+      "type": "employee",
+      "type_ar": "موظف",
+      "type_fr": "employé",
+      "description": "Template for creating employee identification cards",
+      "description_ar": "قالب لإنشاء بطاقات هوية الموظفين",
+      "description_fr": "Modèle pour créer des cartes d'identité employé",
+      "fields": [
+        {"name": "employee_id", "label": "Employee ID", "label_ar": "رقم الموظف", "label_fr": "ID employé", "type": "text", "required": true},
+        {"name": "full_name", "label": "Full Name", "label_ar": "الاسم الكامل", "label_fr": "Nom complet", "type": "text", "required": true},
+        {"name": "department", "label": "Department", "label_ar": "القسم", "label_fr": "Département", "type": "text", "required": true},
+        {"name": "position", "label": "Position", "label_ar": "المنصب", "label_fr": "Poste", "type": "text", "required": true},
+        {"name": "hire_date", "label": "Hire Date", "label_ar": "تاريخ التوظيف", "label_fr": "Date d'embauche", "type": "date", "required": true},
+        {"name": "photo", "label": "Photo", "label_ar": "الصورة", "label_fr": "Photo", "type": "image", "required": true}
+      ],
+      "design": {
+        "width": 85.60,
+        "height": 53.98,
+        "unit": "mm",
+        "background_color": "#ffffff",
+        "border_color": "#333333",
+        "border_width": 1,
+        "font_family": "Arial",
+        "logo_position": "top_right",
+        "orientation": "landscape"
+      },
+      "is_active": true,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-10-01T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Student ID Card Template",
+      "name_ar": "قالب بطاقة هوية الطالب",
+      "name_fr": "Modèle de carte d'identité étudiant",
+      "type": "student",
+      "type_ar": "طالب",
+      "type_fr": "étudiant",
+      "description": "Template for creating student identification cards",
+      "description_ar": "قالب لإنشاء بطاقات هوية الطلاب",
+      "description_fr": "Modèle pour créer des cartes d'identité étudiant",
+      "fields": [
+        {"name": "student_id", "label": "Student ID", "label_ar": "رقم الطالب", "label_fr": "ID étudiant", "type": "text", "required": true},
+        {"name": "full_name", "label": "Full Name", "label_ar": "الاسم الكامل", "label_fr": "Nom complet", "type": "text", "required": true},
+        {"name": "grade", "label": "Grade/Level", "label_ar": "الصف/المستوى", "label_fr": "Niveau", "type": "text", "required": true},
+        {"name": "school_name", "label": "School Name", "label_ar": "اسم المدرسة", "label_fr": "Nom de l'école", "type": "text", "required": true},
+        {"name": "academic_year", "label": "Academic Year", "label_ar": "العام الدراسي", "label_fr": "Année académique", "type": "text", "required": true},
+        {"name": "photo", "label": "Photo", "label_ar": "الصورة", "label_fr": "Photo", "type": "image", "required": true}
+      ],
+      "design": {
+        "width": 85.60,
+        "height": 53.98,
+        "unit": "mm",
+        "background_color": "#f0f8ff",
+        "border_color": "#4169e1",
+        "border_width": 2,
+        "font_family": "Times New Roman",
+        "logo_position": "top_left",
+        "orientation": "landscape"
+      },
+      "is_active": true,
+      "created_at": "2024-02-20T09:15:00Z",
+      "updated_at": "2024-09-15T16:20:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Visitor Pass Template",
+      "name_ar": "قالب بطاقة زائر",
+      "name_fr": "Modèle de carte visiteur",
+      "type": "visitor",
+      "type_ar": "زائر",
+      "type_fr": "visiteur",
+      "description": "Template for temporary visitor passes",
+      "description_ar": "قالب لبطاقات الزوار المؤقتة",
+      "description_fr": "Modèle pour les cartes visiteur temporaires",
+      "fields": [
+        {"name": "visitor_id", "label": "Visitor ID", "label_ar": "رقم الزائر", "label_fr": "ID visiteur", "type": "text", "required": true},
+        {"name": "full_name", "label": "Full Name", "label_ar": "الاسم الكامل", "label_fr": "Nom complet", "type": "text", "required": true},
+        {"name": "company", "label": "Company/Organization", "label_ar": "الشركة/المؤسسة", "label_fr": "Entreprise/Organisation", "type": "text", "required": true},
+        {"name": "host_person", "label": "Host Person", "label_ar": "الشخص المضيف", "label_fr": "Personne hôte", "type": "text", "required": true},
+        {"name": "visit_date", "label": "Visit Date", "label_ar": "تاريخ الزيارة", "label_fr": "Date de visite", "type": "date", "required": true},
+        {"name": "valid_until", "label": "Valid Until", "label_ar": "صالحة حتى", "label_fr": "Valable jusqu'au", "type": "datetime", "required": true},
+        {"name": "photo", "label": "Photo", "label_ar": "الصورة", "label_fr": "Photo", "type": "image", "required": true}
+      ],
+      "design": {
+        "width": 85.60,
+        "height": 53.98,
+        "unit": "mm",
+        "background_color": "#fff8dc",
+        "border_color": "#ff4500",
+        "border_width": 2,
+        "font_family": "Helvetica",
+        "logo_position": "center",
+        "orientation": "landscape"
+      },
+      "is_active": true,
+      "created_at": "2024-03-10T11:30:00Z",
+      "updated_at": "2024-11-01T09:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Membership Card Template",
+      "name_ar": "قالب بطاقة العضوية",
+      "name_fr": "Modèle de carte de membre",
+      "type": "membership",
+      "type_ar": "عضوية",
+      "type_fr": "adhésion",
+      "description": "Template for membership cards with QR codes",
+      "description_ar": "قالب لبطاقات العضوية مع رموز QR",
+      "description_fr": "Modèle pour les cartes de membre avec codes QR",
+      "fields": [
+        {"name": "member_id", "label": "Member ID", "label_ar": "رقم العضوية", "label_fr": "ID membre", "type": "text", "required": true},
+        {"name": "full_name", "label": "Full Name", "label_ar": "الاسم الكامل", "label_fr": "Nom complet", "type": "text", "required": true},
+        {"name": "membership_type", "label": "Membership Type", "label_ar": "نوع العضوية", "label_fr": "Type d'adhésion", "type": "select", "options": ["Gold", "Silver", "Bronze"], "required": true},
+        {"name": "join_date", "label": "Join Date", "label_ar": "تاريخ الانضمام", "label_fr": "Date d'adhésion", "type": "date", "required": true},
+        {"name": "expiry_date", "label": "Expiry Date", "label_ar": "تاريخ الانتهاء", "label_fr": "Date d'expiration", "type": "date", "required": true},
+        {"name": "photo", "label": "Photo", "label_ar": "الصورة", "label_fr": "Photo", "type": "image", "required": false},
+        {"name": "qr_code", "label": "QR Code", "label_ar": "رمز QR", "label_fr": "Code QR", "type": "qr_code", "required": true}
+      ],
+      "design": {
+        "width": 85.60,
+        "height": 53.98,
+        "unit": "mm",
+        "background_color": "#2f4f4f",
+        "border_color": "#ffd700",
+        "border_width": 3,
+        "font_family": "Arial Black",
+        "logo_position": "top_center",
+        "orientation": "landscape"
+      },
+      "is_active": true,
+      "created_at": "2024-04-05T08:45:00Z",
+      "updated_at": "2024-10-20T13:10:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Event Badge Template",
+      "name_ar": "قالب شارة الحدث",
+      "name_fr": "Modèle de badge d'événement",
+      "type": "event",
+      "type_ar": "حدث",
+      "type_fr": "événement",
+      "description": "Template for temporary event badges",
+      "description_ar": "قالب لشارات الأحداث المؤقتة",
+      "description_fr": "Modèle pour les badges d'événement temporaires",
+      "fields": [
+        {"name": "badge_id", "label": "Badge ID", "label_ar": "رقم الشارة", "label_fr": "ID badge", "type": "text", "required": true},
+        {"name": "full_name", "label": "Full Name", "label_ar": "الاسم الكامل", "label_fr": "Nom complet", "type": "text", "required": true},
+        {"name": "event_name", "label": "Event Name", "label_ar": "اسم الحدث", "label_fr": "Nom de l'événement", "type": "text", "required": true},
+        {"name": "role", "label": "Role/Title", "label_ar": "الدور/المسمى", "label_fr": "Rôle/Titre", "type": "text", "required": true},
+        {"name": "event_date", "label": "Event Date", "label_ar": "تاريخ الحدث", "label_fr": "Date de l'événement", "type": "date", "required": true},
+        {"name": "photo", "label": "Photo", "label_ar": "الصورة", "label_fr": "Photo", "type": "image", "required": false}
+      ],
+      "design": {
+        "width": 90,
+        "height": 130,
+        "unit": "mm",
+        "background_color": "#ffffff",
+        "border_color": "#ff6347",
+        "border_width": 4,
+        "font_family": "Calibri",
+        "logo_position": "top_center",
+        "orientation": "portrait"
+      },
+      "is_active": true,
+      "created_at": "2024-05-12T14:20:00Z",
+      "updated_at": "2024-09-28T11:55:00Z"
+    }
+  ],
+  "card_types": [
+    {
+      "id": 1,
+      "name": "employee",
+      "name_ar": "موظف",
+      "name_fr": "employé",
+      "description": "Employee identification cards",
+      "description_ar": "بطاقات هوية الموظفين",
+      "description_fr": "Cartes d'identité employé"
+    },
+    {
+      "id": 2,
+      "name": "student",
+      "name_ar": "طالب",
+      "name_fr": "étudiant",
+      "description": "Student identification cards",
+      "description_ar": "بطاقات هوية الطلاب",
+      "description_fr": "Cartes d'identité étudiant"
+    },
+    {
+      "id": 3,
+      "name": "visitor",
+      "name_ar": "زائر",
+      "name_fr": "visiteur",
+      "description": "Temporary visitor passes",
+      "description_ar": "بطاقات الزوار المؤقتة",
+      "description_fr": "Cartes visiteur temporaires"
+    },
+    {
+      "id": 4,
+      "name": "membership",
+      "name_ar": "عضوية",
+      "name_fr": "adhésion",
+      "description": "Membership and loyalty cards",
+      "description_ar": "بطاقات العضوية والولاء",
+      "description_fr": "Cartes d'adhésion et de fidélité"
+    },
+    {
+      "id": 5,
+      "name": "event",
+      "name_ar": "حدث",
+      "name_fr": "événement",
+      "description": "Event badges and passes",
+      "description_ar": "شارات وأذونات الأحداث",
+      "description_fr": "Badges et passes d'événement"
+    }
+  ],
+  "status": "success",
+  "timestamp": "2025-11-02T02:41:24.402Z",
+  "total_cards": 5
+}
